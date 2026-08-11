@@ -1,0 +1,1320 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+html, body{
+    width:100%;
+    overflow-x:hidden;
+}
+body{
+    font-family:'Poppins',sans-serif;
+    background: radial-gradient(circle at top, #ffffff, #F8F4ED);
+    color:#3B2F2F;
+    overflow-x:hidden;
+}
+#content{
+    display:none;
+}
+
+/* ===========================
+   COVER
+=========================== */
+
+#cover{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+}
+
+/* ===========================
+   BOX
+=========================== */
+
+.cover-box{
+    
+
+    width:100%;
+
+    max-width:650px;
+
+    margin:0 auto;
+
+    background:white;
+
+    padding:70px 40px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    border:1px solid #E6D8BA;
+
+    position:relative;
+
+}
+.cover-box::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    right:15px;
+
+    bottom:15px;
+
+    border:1px solid #F1E7D2;
+
+    border-radius:18px;
+
+    pointer-events:none;
+}
+
+/* ===========================
+   BASMALAH
+=========================== */
+
+.basmalah{
+
+    font-family:'Amiri',serif;
+
+    font-size:30px;
+
+    color:#B68D40;
+
+    margin-bottom:20px;
+
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+.title{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:26px;
+
+    font-weight:500;
+
+    color:#8A6A45;
+
+    letter-spacing:1px;
+
+    margin-bottom:20px;
+
+}
+/* ===========================
+   ORNAMENT
+=========================== */
+
+.ornament{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin:25px 0;
+
+}
+
+.line{
+
+    width:110px;
+
+    height:1px;
+
+    background:#D9C8A5;
+
+}
+
+.flower{
+
+    font-size:22px;
+
+    color:#B68D40;
+
+}
+
+/* ===========================
+   NAMA
+=========================== */
+
+#namaPengantin{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:48px;
+
+    font-weight:600;
+
+    line-height:1.1;
+
+    color:#6E4C3A;
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================
+   TANGGAL
+=========================== */
+
+#tanggal{
+
+    color:#9A7A52;
+
+    letter-spacing:2px;
+
+    font-size:18px;
+
+    margin-top:10px;
+
+    margin-bottom:45px;
+
+}
+
+/* ===========================
+   GUEST
+=========================== */
+
+.guest{
+
+    margin-bottom:40px;
+
+}
+
+.guest small{
+
+    color:#777;
+
+}
+
+#namaTamu{
+
+    margin-top:10px;
+
+    font-size:28px;
+
+    color:#6E4C3A;
+
+}
+
+/* ===========================
+   GUEST BOX
+=========================== */
+.guest small{
+    display:block;
+    margin-bottom:25px; /* Atur 20px–35px sesuai selera */
+    line-height:1.6;
+}
+.guest-box{
+
+    margin:20px auto;
+
+    padding:18px 25px;
+
+    width:320px;
+
+    min-height:80px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#FAF8F4;
+
+    border:1px solid #E6D8BA;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+
+}
+
+.guest-box h3{
+
+    margin:0;
+
+    font-size:20px;
+
+    line-height:1.4;
+
+    font-weight:500;
+
+    color:#6E4C3A;
+
+    text-align:center;
+
+    word-break:break-word;
+
+}
+
+/* ===========================
+BUTTON
+=========================== */
+
+#openInvitation{
+
+    background:linear-gradient(135deg,#B68D40,#8A6A45);
+    color:white;
+    border:none;
+    border-radius:40px;
+    padding:20px 42px;
+    margin-top:auto;
+    font-size:15px;
+    letter-spacing:1px;
+    font-weight:500;
+    cursor:pointer;
+    transition:.35s;
+}
+
+#openInvitation:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(182,141,64,.35);
+
+}
+/* =========================================
+                ORNAMENT
+========================================= */
+
+.ornament{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:16px;
+
+    margin:25px auto;
+
+}
+/* =========================================
+                ORNAMENT
+========================================= */
+.ornament{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:16px;
+
+    margin:25px auto;
+
+}
+
+.ornament .line{
+
+    width:120px;
+
+    height:1px;
+
+    background:#D8C3A5;
+
+}
+
+.ornament .flower{
+
+    font-size:20px;
+
+    color:#B68D40;
+
+}
+/* =========================================
+                OPENING
+========================================= */
+
+#opening{
+
+    padding:40px 25px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.opening-box{
+
+    width:100%;
+
+    max-width:760px;
+
+    text-align:center;
+
+}
+
+.opening-box h2{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:42px;
+
+    font-weight:600;
+
+    color:#6E4C3A;
+
+    margin:35px 0;
+
+}
+
+.opening-text{
+
+    font-size:18px;
+
+    line-height:2;
+
+    color:#555;
+
+}
+
+/* =========================================
+                QURAN
+========================================= */
+
+#quran{
+
+    padding:30px 25px 15px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.quran-box{
+
+    width:100%;
+
+    max-width:850px;
+
+    text-align:center;
+
+}
+
+.section-title{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:32px;
+
+    font-weight:600;
+
+    color:#8A6A45;
+
+    margin:35px 0;
+
+}
+
+.arabic{
+
+    font-family:'Amiri', serif;
+
+    font-size:40px;
+
+    line-height:2;
+
+    color:#8A6A45;
+
+    direction:rtl;
+
+    margin:40px 0;
+
+}
+
+.translation{
+
+    max-width:700px;
+
+    margin:35px auto;
+
+    font-size:18px;
+
+    line-height:2;
+
+    color:#555;
+
+    font-style:italic;
+
+}
+
+.surah{
+
+    margin-top:25px;
+
+    color:#8A6A45;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+}
+/* =========================================
+                COUPLE
+========================================= */
+
+#couple{
+
+    padding:20px 25px 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.couple-box{
+
+    width:100%;
+
+    max-width:850px;
+
+    text-align:center;
+
+}
+
+.couple-title{
+
+    font-family:'Amiri',serif;
+
+    font-size:22px;
+
+    color:#B68D40;
+
+    margin:8px 0;
+
+}
+
+.couple-box h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:44px;
+
+    color:#6E4C3A;
+
+    margin:15px 0 35px;
+
+}
+
+.couple-card{
+
+    margin:35px 0 50px;
+
+}
+
+.couple-card h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:44px;
+
+    font-weight:600;
+
+    color:#8A6A45;
+
+    margin-bottom:20px;
+
+}
+.name-line{
+    width:170px;
+    height:2px;
+    background:#D8C4A4;
+    margin:18px auto 25px;
+    border-radius:10px;
+    opacity:.9;
+}
+.couple-card p{
+
+    line-height:2;
+
+    color:#666;
+
+    font-size:17px;
+
+}
+
+.couple-divider{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:50px;
+
+    color:#B68D40;
+
+    margin:10px 0;
+
+}
+/* =====================================
+COUNTDOWN
+====================================== */
+
+#countdown{
+    padding:20px 25px 0px;
+    display:flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+
+.countdown-box{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+}
+
+.countdown-subtitle{
+    font-family:'Cormorant Garamond',serif;
+    font-size:22px;
+    letter-spacing:3px;
+    color:#B68D40;
+    margin:15px 0;
+}
+
+.countdown-box h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:46px;
+    color:#6E4C3A;
+    margin:10px 0 18px;
+}
+
+.countdown-text{
+    max-width:620px;
+    margin:0 auto 35px;
+    color:#666;
+    line-height:1.8;
+}
+
+.countdown-container{
+    display:flex;
+    justify-content:center;
+    gap:22px;
+    flex-wrap:wrap;
+}
+
+.time-box{
+
+    width:120px;
+    height:120px;
+
+    border:1px solid #E7D8BF;
+
+    border-radius:20px;
+
+    background:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.05);
+
+    transition:.3s;
+}
+
+.time-box:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 30px rgba(182,141,64,.18);
+
+}
+
+.time-box span{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:46px;
+
+    color:#8A6A45;
+
+    font-weight:700;
+}
+
+.time-box small{
+
+    margin-top:10px;
+
+    font-size:14px;
+
+    color:#888;
+
+    letter-spacing:1px;
+}
+/* =====================================
+EVENT
+====================================== */
+
+#event{
+    padding:20px 25px 30px;
+    display:flex;
+    justify-content:center;
+}
+
+.event-box{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+}
+
+.event-subtitle{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:22px;
+    letter-spacing:3px;
+    color:#B68D40;
+    margin:18px 0;
+
+}
+
+.event-box h2{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:46px;
+    color:#6E4C3A;
+    margin-bottom:50px;
+
+}
+
+.event-card{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+
+}
+
+.event-item{
+
+    background:#fff;
+
+    border:1px solid #E8DCC6;
+
+    border-radius:24px;
+
+    padding:35px 25px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.05);
+
+    transition:.3s;
+
+}
+
+.event-item:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 30px rgba(182,141,64,.18);
+
+}
+
+.event-icon{
+
+    font-size:34px;
+
+    margin-bottom:15px;
+
+}
+
+.event-item h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:28px;
+
+    color:#8A6A45;
+
+    margin-bottom:15px;
+
+}
+
+.event-item p{
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+.map-button{
+
+    display:inline-block;
+
+    margin-top:45px;
+
+    padding:15px 40px;
+
+    border-radius:40px;
+
+    background:linear-gradient(135deg,#B68D40,#8A6A45);
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.map-button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(182,141,64,.25);
+
+}
+/* =====================================
+WEDDING GIFT
+====================================== */
+
+#gift{
+
+    padding:30px 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.gift-box{
+
+    width:100%;
+    max-width:850px;
+    text-align:center;
+
+}
+
+.gift-subtitle{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:22px;
+    letter-spacing:3px;
+    color:#B68D40;
+    margin:18px 0;
+
+}
+
+.gift-box h2{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:46px;
+    color:#6E4C3A;
+    margin-bottom:25px;
+
+}
+
+.gift-desc{
+
+    max-width:650px;
+    margin:0 auto 45px;
+    line-height:2;
+    color:#666;
+
+}
+
+.gift-card{
+
+    background:#fff;
+    border:1px solid #E8DCC6;
+    border-radius:24px;
+    padding:35px;
+    margin:25px auto;
+    max-width:500px;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.gift-card h3{
+
+    color:#8A6A45;
+    font-size:28px;
+    margin-bottom:20px;
+
+}
+
+.rekening-number{
+
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:2px;
+    color:#6E4C3A;
+    margin-bottom:15px;
+
+}
+
+.copy-btn{
+
+    margin-top:20px;
+    padding:14px 30px;
+    border:none;
+    border-radius:40px;
+    background:linear-gradient(135deg,#B68D40,#8A6A45);
+    color:#fff;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.copy-btn:hover{
+
+    transform:translateY(-3px);
+
+}
+/* =====================================
+RSVP
+====================================== */
+
+#rsvp{
+
+    padding-top:20px;
+    padding-bottom:30px;
+    text-align:center;
+}
+}
+#rsvp .container{
+    max-width:1100px;
+    margin:0 auto;
+}
+
+.rsvp-box{
+
+    width:100%;
+
+    max-width:950px;
+
+    text-align:center;
+
+}
+.rsvp-subtitle{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:35px;
+    font-weight:500;
+    letter-spacing:3px;
+    color:#8b6b45;
+    text-transform:uppercase;
+    margin-top 25px;
+    margin-bottom:18px
+
+}
+.section-subtitle{
+    font-family:'Poppins',sans-serif;
+    font-size:27px;
+    font-weight:500;
+    letter-spacing:3px;
+    color:#B68D40;
+    text-transform:uppercase;
+    margin:20px 0 12px;
+    margin-top 10px;
+}
+
+#rsvp h2{
+    font-family:'Cormorant Garamond', serif;
+    font-size:58px;
+    color:#6f4e37;
+    margin-bottom:22px;
+    font-weight:600;
+    line-height:1.1;
+}
+
+.rsvp-desc{
+
+    max-width:900px;
+    margin:0 auto 60px;
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    line-height:2;
+    color:#666;
+
+}
+
+.rsvp-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+.rsvp-card{
+
+    background:#fff;
+
+    border:1px solid #edd9ba;
+
+    border-radius:24px;
+
+    padding:40px 30px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.07);
+
+    transition:.35s;
+    text-align:center;
+
+}
+
+.rsvp-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 55px rgba(0,0,0,.12);
+}
+
+.card-icon{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.rsvp-card h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:32px;
+
+    color:#8A6A45;
+
+    margin-bottom:18px;
+
+}
+
+.rsvp-card p{
+
+    line-height:1.9;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+.rsvp-btn{
+
+    display:inline-block;
+
+    padding:14px 32px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    color:#fff;
+
+    background:linear-gradient(135deg,#B68D40,#8A6A45);
+
+    transition:.3s;
+
+}
+
+.rsvp-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(182,141,64,.25);
+
+}
+/* ===============================
+   RSVP Wrapper
+================================ */
+
+.rsvp-wrapper{
+    max-width:1100px;
+    margin:50px auto 0;
+    margin-top:70px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .rsvp-wrapper{
+        grid-template-columns:1fr;
+    }
+
+}
+/* =====================================
+CLOSING
+====================================== */
+
+#closing{
+
+    padding:40px 10px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.closing-box{
+
+    width:100%;
+
+    max-width:800px;
+
+    text-align:center;
+
+}
+
+.closing-subtitle{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:22px;
+
+    letter-spacing:3px;
+
+    color:#B68D40;
+
+    margin:18px 0;
+
+}
+
+.closing-box h2{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:46px;
+
+    color:#6E4C3A;
+
+    margin-bottom:35px;
+
+}
+
+.closing-text{
+
+    font-size:18px;
+
+    line-height:2;
+
+    color:#666;
+
+    max-width:650px;
+
+    margin:0 auto 25px;
+
+}
+
+.closing-box h3{
+
+    margin-top:45px;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:40px;
+
+    color:#8A6A45;
+
+    line-height:1.5;
+
+}
+/* =====================================
+TOAST NOTIFICATION
+====================================== */
+
+#toast{
+
+    position:fixed;
+
+    left:50%;
+    bottom:30px;
+
+    transform:translateX(-50%) translateY(30px);
+
+    background:#6E4C3A;
+
+    color:#fff;
+
+    padding:14px 28px;
+
+    border-radius:40px;
+
+    font-size:15px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.35s;
+
+    z-index:9999;
+
+}
+
+#toast.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateX(-50%) translateY(0);
+
+}
+/* =========================
+   MUSIC BUTTON
+========================= */
+
+.music-btn{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:58px;
+
+    height:58px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#B68D40;
+
+    color:#fff;
+
+    font-size:24px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+    z-index:9999;
+
+    transition:.3s;
+}
+
+.music-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+.music-btn.playing{
+
+    animation:spinMusic 6s linear infinite;
+
+}
+
+@keyframes spinMusic{
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+
+}
+/* ===================================
+   FLORAL DECORATION
+=================================== */
+
+#content section{
+    position:relative;
+    overflow:hidden;
+}
+
+#content section::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+
+    width:220px;
+    height:220px;
+
+    background:url("../assets/images/floral-top-left.png") no-repeat;
+    background-size:contain;
+
+    opacity:.08;
+    pointer-events:none;
+    animation:floatFlower 10s ease-in-out infinite;
+}
+
+#content section::after{
+    content:"";
+    position:absolute;
+    right:0;
+    bottom:0;
+
+    width:220px;
+    height:220px;
+
+    background:url("../assets/images/floral-bottom-right.png") no-repeat;
+    background-size:contain;
+
+    opacity:.08;
+    pointer-events:none;
+    animation:floatFlower 12s ease-in-out infinite reverse;
+}
+
+#content section > *{
+    position:relative;
+    z-index:2;
+}
+@keyframes floatFlower{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-8px);
+    }
+}
