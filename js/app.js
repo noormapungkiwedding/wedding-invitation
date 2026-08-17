@@ -47,7 +47,7 @@ document.getElementById("groomName").textContent =
     
 const fatherVersion = params.get("father");
 
-if (fatherVersion === "darmono") {
+if (fatherVersion && fatherVersion.toLowerCase() === "darmono") {
     wedding.brideFather = "Darmono";
 } else {
     wedding.brideFather = "Karwoto";
