@@ -45,9 +45,28 @@ document.getElementById("brideName").textContent =
 document.getElementById("groomName").textContent =
     wedding.groomName;
     
-const fatherVersion = params.get("father");
+const version = params.get("v");
+const oldFather = params.get("father");
 
-if (fatherVersion && fatherVersion.toLowerCase() === "darmono") {
+// Sistem baru:
+// v=1 → Karwoto
+// v=2 → Darmono
+//
+// Sistem lama tetap didukung agar link yang sudah dibagikan
+// tidak rusak.
+let fatherVersion = "karwoto";
+
+if (version === "2") {
+    fatherVersion = "darmono";
+} else if (
+    version === null &&
+    oldFather &&
+    oldFather.toLowerCase() === "darmono"
+) {
+    fatherVersion = "darmono";
+}
+
+if (fatherVersion === "darmono") {
     wedding.brideFather = "Darmono";
 } else {
     wedding.brideFather = "Karwoto";
